@@ -1,0 +1,457 @@
+/*======================
+  Repsonsive
+========================*/
+
+@media(max-width: 1680px){
+  .main-header.header-fw{
+    padding: 0 55px;
+  }
+}
+
+@media(max-width: 1199px){
+  .banner .slick-arrow{
+    width: 40px;
+    height: 40px;
+  }
+  .main-header.header-fw{
+    padding: 0 35px;
+  }
+  .banner.banner-carousel .banner-inner{
+    min-height: 800px;
+  }
+  .banner.banner-carousel .title{
+    font-size: 62px;
+    line-height: 80px;
+  }
+  .banner.banner-carousel .subtitle{
+    font-size: 18px;
+  }
+
+  .checkout-billing{
+    margin-top: 50px;
+  }
+  .checkout-billing table{
+    margin-bottom: 50px;
+  }
+
+}
+
+@media (max-width: 991px) {
+  body, p, label, .breadcrumb li, .form-control{
+    font-size: 14px;
+  }
+  .mb-lg-30{
+    margin-bottom: 30px;
+  }
+  .mr-lg-30{
+    margin-left: 0;
+  }
+  .main-aside{
+    -webkit-transform: translateX(-300px);
+        -ms-transform: translateX(-300px);
+            transform: translateX(-300px);
+  }
+  .main-aside.open{
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
+  }
+  .aside-overlay {
+    display: block;
+  }
+  .aside-toggler{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navbar{
+    padding: 15px 0;
+  }
+  .main-header.header-1 .navbar,
+  .main-header.header-3 .navbar,
+  .main-header.header-4 .navbar{
+    padding: 0;
+  }
+  .top-header-nav li a{
+    padding-left: 15px;
+  }
+  .top-header .top-header-inner .social-media li a{
+    padding-right: 15px;
+  }
+  .navbar-nav {
+    display: none;
+  }
+  .header-controls-inner li.search-dropdown-wrapper{
+    padding-right: 15px;
+  }
+  .main-header.header-2 .navbar>.container{
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding-top: 0;
+  }
+  .navbar-brand,
+  .main-header.header-2 .navbar-brand{
+    width: 100px;
+  }
+  .section {
+    padding: 60px 0;
+  }
+  .ct-footer{
+    padding: 60px 0 0 0;
+  }
+  .footer-widget{
+    padding-bottom: 60px;
+  }
+  .section.section-padding{
+    padding: 60px 0 30px;
+  }
+
+  .banner,
+  .banner.banner-img .banner-inner,
+  .banner.banner-carousel .banner-inner{
+    min-height: 550px;
+  }
+  .title {
+    font-size: 26px;
+    line-height: 34px;
+    margin-bottom: 10px;
+  }
+  .subtitle{
+    font-size: 14px;
+  }
+  .post .post-body .post-title{
+    font-size: 19px;
+  }
+  .main-header.header-fw{
+    padding: 0;
+  }
+  .ct-testimonial-item p{
+    font-size: 16px;
+  }
+  .ct-categories-2 .ct-category .ct-category-info h5{
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+  .post-single .title,
+  .product-single .title{
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .product-single .product-price{
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .sidebar{
+    margin-top: 20px;
+  }
+  .pagination{
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .recipe-ingredients h4,
+  .recipe-instructions h4{
+    font-size: 22px;
+  }
+
+}
+
+@media (max-width: 768px){
+
+  h1{
+    font-size: 34px;
+    line-height: 42px;
+  }
+  h2{
+    font-size: 30px;
+    line-height: 38px;
+  }
+  h3{
+    font-size: 26px;
+    line-height: 32px;
+  }
+  h4{
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .section-title-wrap.section-header{
+    margin-bottom: 30px;
+  }
+  .header-controls-inner li.cart-dropdown-wrapper,
+  .header-controls-inner li.search-dropdown-wrapper{
+    padding: 30px 10px;
+  }
+  .header-controls-inner li.search-dropdown-wrapper{
+    padding-right: 10px;
+  }
+  .aside-toggler{
+    margin-left: 10px;
+  }
+  .cart-dropdown{
+    width: calc(100% - 30px);
+    margin: 15px;
+    min-width: 0;
+  }
+
+  .ct-responsive-table thead {
+    display: none;
+  }
+
+  .ct-responsive-table td {
+    position: relative;
+    display: block;
+    width: 100%;
+    border-top: 0;
+    text-align: right;
+    padding: 10px;
+    border-bottom: 0;
+  }
+
+  .ct-responsive-table td::before {
+    content: attr(data-title) ": ";
+    font-weight: 700;
+    float: left;
+  }
+
+  .ct-responsive-table td.remove::before {
+    display: none;
+  }
+
+  .ct-responsive-table tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .ct-responsive-table tr:last-child {
+    border-bottom: 0;
+  }
+
+  .ct-responsive-table .cart-product-wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    padding: 0;
+  }
+
+  .ct-responsive-table .cart-product-wrapper img {
+    margin-right: 0;
+    margin-left: 10px;
+  }
+
+  .header-controls-inner li.cart-dropdown-wrapper,
+  .header-controls-inner li.search-dropdown-wrapper{
+    position: static;
+  }
+  .can-sticky + .banner{
+    padding: 85px 0 0;
+  }
+  .can-sticky + .banner.banner-img{
+    padding: 0;
+  }
+  .can-sticky + .banner.banner-img .banner-inner{
+    padding: 70px 0 0;
+  }
+  .banner-inner{
+    max-width: 100%;
+  }
+  .banner,
+  .banner.banner-img .banner-inner{
+    padding: 80px 0;
+  }
+  .banner .title,
+  .banner.banner-carousel .title{
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .banner .subtitle,
+  .banner.banner-carousel .subtitle{
+    font-size: 16px;
+  }
+  .banner .slider-next,
+  .banner .slider-prev{
+    display: none;
+  }
+  .can-sticky + .subheader{
+    padding: 150px 0 70px;
+  }
+  .subheader{
+    padding: 70px 0;
+  }
+  .subheader h1{
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .subheader.subheader-2{
+    height: auto;
+    padding: 150px 0 60px;
+    text-align: center;
+  }
+  .subheader.subheader-2 h1{
+    text-align: center;
+  }
+  .post.list .post-body{
+    padding: 20px 0 0;
+  }
+  .about-author img,
+  .comments-list .comment-item img{
+    width: 45px;
+  }
+  .comments-list .comment-item span{
+    position: relative;
+  }
+  .comments-list .comment-item h5 {
+    margin-bottom: 0;
+  }
+  .product-additional-info .comment-body .ct-rating{
+    margin: 5px 0 0;
+  }
+  .auth-form{
+    width: 100%;
+  }
+  .ct-arrows .slick-arrow{
+    width: 40px;
+    height: 40px;
+  }
+  .img-gradient::before,
+  .img-gradient::after{
+    display: none;
+  }
+  .post.post-2 .post-body .post-title{
+    max-width: 100%;
+  }
+  .recipe.recipe-list{
+    display: block;
+  }
+  .recipe.recipe-list .recipe-body{
+    padding: 15px 0 0;
+  }
+  .recipe.recipe-list .recipe-thumbnail{
+    width: auto;
+  }
+  .recipe.recipe-list .recipe-meta{
+    padding-top: 0;
+  }
+
+}
+
+@media (max-width: 575px){
+
+  .search-form-wrapper form{
+    width: 100%;
+  }
+  .search-form-wrapper .close-btn{
+    top: 20px;
+    right: 20px;
+  }
+  .search-form-wrapper form input{
+    font-size: 30px;
+    padding: 10px 0;
+  }
+  .search-form-wrapper .search-btn{
+    font-size: 25px;
+  }
+  .auth-controls {
+    display: block;
+  }
+  .auth-controls .btn-link{
+    margin-top: 10px;
+    display: block;
+  }
+
+  .btn-block-custom-sm{
+    width: 100%;
+  }
+
+  .ct-preloader-inner {
+    margin-left: -65px;
+  }
+  .cta-item-inner{
+    max-width: 100%;
+  }
+  .cta-item img{
+    opacity: .1;
+  }
+  .post-single .post-meta span,
+  .subheader.subheader-2 .post-meta span{
+    display: block;
+    margin-right: 0;
+  }
+  .post.post-2 .post-body{
+    margin: -40px 15px 0;
+  }
+  .post.post-2 .post-body .post-meta span{
+    display: block;
+    margin: 0;
+  }
+  .sidebar-widget .media > a{
+    width: 80px;
+  }
+  .about-author .social-media li a{
+    width: 30px;
+    height: 30px;
+  }
+
+  .ct-product.product-list{
+    display: block;
+  }
+  .ct-product.product-list .ct-product-thumbnail{
+    max-width: 100%;
+    margin-right: 0;
+  }
+
+  .ct-product.product-list .ct-product-thumbnail a.btn-custom{
+    display: block;
+  }
+  .ct-product.product-list .ct-product-body{
+    margin-top: 15px;
+  }
+
+  .ct-newsletter{
+    display: block;
+  }
+  .ct-newsletter .btn-custom{
+    margin: 15px 0 0;
+    width: 100%;
+  }
+
+  .filter-wrapper{
+    display: block;
+  }
+  .filter-wrapper .view-toggler{
+    display: none;
+  }
+  .filter-wrapper .view-toggler,
+  .filter-wrapper select{
+    width: 100%;
+  }
+
+  .atc-form{
+    display: block;
+    margin-bottom: 20px;
+  }
+  .atc-form .form-group{
+    margin-right: 0;
+  }
+  .atc-form .btn-custom{
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+  }
+  .nav{
+    display: block;
+  }
+  .nav .nav-link{
+    margin: 0 0 10px;
+  }
+
+  .ct-cart-form table th{
+    width: 125px;
+  }
+
+}
